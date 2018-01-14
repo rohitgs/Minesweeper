@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ffff00"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="294dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="/banner_alt"
+        android:src="@drawable/wallpaper" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Play"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0c0fea"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MineSweeper"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0c0fea"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a difficulty level"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0c0fea"
+        android:textStyle="bold"
+      />
+
+    <Button
+        android:id="@+id/beginner"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="Beginner"
+          android:background="#0c0fea"
+          android:textColor="#ffff"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/Intermediate"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:text="Intermediate"
+        android:background="#0c0fea"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/Advanced"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="Advanced"
+        android:background="#0c0fea"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+</LinearLayout>

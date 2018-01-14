@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rohitgs/Desktop/Final/Minesweeper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/rohitgs/Desktop/Final/Minesweeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_06a763f275483b41a834e90b633f6eba2a614fd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rohitgs/Desktop/Final/Minesweeper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9abb50c13f5fd24f27d375b2fec7671b359209ab">
+        <dex dex="/Users/rohitgs/Desktop/Final/Minesweeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a6eb6f1071b9e6105d2640b2f8ab6f8ce23ec99f/classes.dex" />
+    </item>
+
+</items>
